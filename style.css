@@ -3,7 +3,7 @@
 body {
   background-color: #131316;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cormorant', 'Times New Roman', Times, serif;
   padding: 0;
   margin: 0;
 }
@@ -54,6 +54,17 @@ section {
   transition: all 0.5s;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+
+}
+.btn {
+  font-weight: bold;
+}
 .stuff:hover {
   transform: translateY(-10px);
 }
